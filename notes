@@ -1,0 +1,13 @@
+THINGS TO DO BEFORE USING BOILERPLATE:
+
+1.  Install node packages with "npm install" 
+2.  start up the webpack dev server with "npn run serve"
+
+AFTER FINISHING DEVELOPMENT:
+1.  Run "npm build" to build deployment code
+
+WEBPACK LOADERS:
+*  "css loader" helps webpack collect css from a css file (runs first)
+*  "style loader" takes that css and add it to the html page (runs last)
+    (so whenever a css file is imported into a javascript file, webpack run that css
+    through the loaders to add that css to the html page)
